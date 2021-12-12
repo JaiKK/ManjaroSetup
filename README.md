@@ -31,7 +31,7 @@ https://archlinux.org/packages/community/x86_64/plocate/
 
 Create and add private key to ssh agent
 ```shell
-ssh-keygen -t ed25519 -C "jaikuraria@gmail.com"
+ssh-keygen -t ed25519 -C "email@gmail.com"
 
 eval "$(ssh-agent -s)"
 
