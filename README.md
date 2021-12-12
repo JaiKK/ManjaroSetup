@@ -21,6 +21,25 @@ https://archlinux.org/packages/community/x86_64/plocate/
 
 ---
 
+# Github SSH setup
+
+ssh-keygen -t ed25519 -C "jaikuraria@gmail.com"
+
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/id_ed25519
+
+cat ~/.ssh/id_ed25519.pub
+
+ssh -T git@github.com
+
+
+---
+
+-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+---
+
 flatpak search vscode
 flatpak install com.visualstudio.code
 flatpak run com.visualstudio.code
