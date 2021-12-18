@@ -66,10 +66,16 @@ https://docs.github.com/en/authentication/troubleshooting-ssh
 
 ---
 
+# Flatpak
+
+```shell
 flatpak search vscode
 flatpak install com.visualstudio.code
 flatpak run com.visualstudio.code
+```
 
+### ***note***:
+Better to use Snap VSCode 
 
 ---
 
@@ -77,9 +83,19 @@ flatpak run com.visualstudio.code
 
 ---
 
+# VSCode
+
+```shell
 snap find vscode
 snap install --classic vscode
+```
+```shell
 snap run code
+```
+or
+```shell
+code
+```
 
 ---
 
@@ -156,7 +172,15 @@ apparmor
 
 ---
 
-tmux
+# tmux
+
+```shell
+sudo pacman -Syu
+sudo pacman -S tmux
+```
+
+### ***Links***
+[Cheatsheet](https://tmuxcheatsheet.com/)  
 
 ---
 
